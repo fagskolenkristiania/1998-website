@@ -1,0 +1,146 @@
+h1 {
+    color: #8f3333;
+    border: 5px dashed #93425a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#profilbilde {
+    width: 10%;
+    float: center;
+}
+
+body {
+    background: url(https://i.gifer.com/XVo7.gif);
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    border: 6px solid #4CAF50;
+    align-content: center;
+    text-align: center;
+    text-decoration: underline #93425a;
+}
+
+.hobby {
+    background: yellow;
+    padding: 1%;
+}
+
+.hobbybilde img {
+    height: 150px;
+    padding: 20px;
+}
+
+.completed{
+    text-decoration: underline wavy #93425a;
+}
+
+#for {
+    background: rgba(247, 101, 65, 0.747);
+    padding: 3px;
+}
+
+#nettsider {
+    background: #4CAF50;
+    padding: 2%;
+}
+
+#motto {
+    border: 3px solid #60a9e6;
+}
+
+
+/* 
+CSS kort fortalt er dette: 
+selector {
+property: value;
+}
+
+*HEXADECIMAL*
+
+
+*FARGER*
+
+RGB
+color: rgb(000, 000, 000);
+coloe: rgb(red, green, blue);
+range from 0 to 255 
+Example: rgb(255, 000, 000) means pure red color (red is max at 255, while 100 is less red)
+
+RGBA
+RGBA = som RGB, men med en alpha(transparent) kanal som rangeres fra 0.0 til 1.0.
+0=helt transparent
+1=fullstendig farge
+
+Eksempel på fullstendig rød farge*
+h1 {
+    color: rgba(FFF, 000, 000, 1);
+}
+Eksempel på litt transparent rød farge*
+h1 {
+    color: rgba(FFF, 000, 000, .2);
+}
+
+*BACKGROUND*
+Bilde repeterer seg ikke til å dekke hele bakgrunnen* background-repeat: no-repeat;
+Strekker seg til hele bakgrunnen* background-size: cover; 
+
+*BORDER*
+width, style; color
+width in px
+style in solid/dash
+color in rgb or hexadecimal
+
+preferred method* border: 5px dashed #93425a;
+
+could also write it like this* 
+    border-color: #93425a;
+    border-width: 5px;
+    border-style: dashed;
+*/
+
+/*
+*CSS selectors basics*
+
+**Element selector**
+Element selector selects all instances of a given element
+
+**ID selector**
+ID selector selects an element with a given ID. Only one per page!
+HTML: Write id="idname" 
+CSS: Write #id-name: 
+#idname {
+    background: yellow;
+}
+
+**CSS Class Selector**
+Selects elements in an given element
+HTML: Write class="classname" 
+CSS: Write .classname 
+Example:
+.classname {
+    background: yellow;
+}
+
+--Summary--
+**element**
+    li{
+    property: value;
+    }
+**id**
+    #idname{
+    property: value;
+    }
+**class**
+    .classname{
+    property: value;
+    }
+
+30 CSS selectors that are useful
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+*/
